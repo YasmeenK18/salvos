@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+.salvos
+{
+    position: relative;
+}
+box-sizing: border-box; 
+{
+    margin: 0;
+    padding: 0;
+	font-family: Chewy;
+}
+.over-img
+{
+    position: left;
+    top: 80%;
+    left: 20%;
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Chewy;
+}
+.top-left 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.topnav li{
+	display: inline-block;
+    padding: 0px 10px;
+}
+
+.topnav  li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+	font-size: 25px;
+	color: #f1f1f1;
+	display: block;
+}
+
+.topnav li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffccff;
+  color: black;
+}
+.form
+{
+	max-width: 500px;
+	width: 100%;
+	background: lightsteelblue;
+	margin: 20px auto;
+	padding: 30px;
+}
+header {
+	font-family: Chewy; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 26.4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color: #0000FF; /* For browsers that do not support gradients */
+	background-image: linear-gradient(180deg, #0000A0, #0000FF);
+	padding: 15px;
+	left: 0;
+	overflow: hidden;
+}
+
+body
+{
+	background: mintcream;
+}
+.logo 
+{
+    cursor: pointer;
+}
+.form
+{
+	max-width: 500px;
+	width: 100%;
+	background-color: #0000FF; /* For browsers that do not support gradients */
+	background-image: linear-gradient(180deg, #0000A0, #0000FF);
+	margin: 20px auto;
+	padding: 30px;
+}
+body
+{
+	background: mintcream;
+}
+input[type=text], [type=password],[type=email],[type=tel] 
+{
+	 width: 100%;
+	 padding: 12px 20px;
+	 border: 1px solid #ccc;
+	 border-radius: 4px;
+	 box-sizing: border-box;
+	 margin: 6px;
+	 margin-bottom: 16px;
+	 font-family: Arial;
+}
+.form .elements .inputfield .textarea
+{
+	position: relative;
+	resize: none;
+	height: 80px;
+	width: 100%;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 6px;
+	margin-bottom: 16px;
+	font-family: Chewy;
+	font-weight: 100;
+}
+.form .elements .inputfield .selectone
+{
+	position: relative;
+	height: 37px;
+	width: 100%;
+}
+.form .elements .inputfield .selectone select
+{
+	-webkit-appearance: none;
+	appearance: none;
+	position: relative;
+	resize: none;
+	height: 42px;
+	width: 100%;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 6px;
+	margin-bottom: 16px;
+	font-family: Chewy;
+	font-weight: 100;
+}
+	input[type=submit]:hover 
+{
+	background-color: white;
+	
+}
+	.elements 
+{
+	margin: 0 auto;
+	width: 400px;
+	font-family: Chewy;
+	font-size: 17px;
+	font-weight: 300;
+	color: white;
+}
+body h2 
+{
+	text-align: center;
+	font-family: Chewy;
+	font-size: 40px;
+	color: white;
+	font-weight: 200;
+}
+	main h1 
+{
+	font-family: Chewy;
+	font-size: 15px;
+	text-align: center;
+}
+	main h2 
+{
+	font-family: Chewy;
+	font-size: 12px;
+	text-align: center;
+}
+
+	.elements button 
+{
+  padding: 10px 20px;
+  width: 102%;
+  background-color: #000066;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+ }
+ 
+ .fa 
+{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
