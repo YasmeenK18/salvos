@@ -1,0 +1,210 @@
+header {
+	font-family: Chewy; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 26.4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color: #0000FF; /* For browsers that do not support gradients */
+	background-image: linear-gradient(180deg, #0000A0, #0000FF);
+	padding: 15px;
+	left: 0;
+	overflow: hidden;
+}
+.topnav li{
+	display: inline-block;
+    padding: 0px 10px;
+}
+
+.topnav  li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+	font-size: 25px;
+	color: #f1f1f1;
+	display: block;
+}
+
+.topnav li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffccff;
+  color: black;
+}
+
+.main {
+  margin-left: 180px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.salvos {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 200px;
+}
+
+.presentation, .presentation1, .presentation2
+{
+    background: mintcream;
+    margin: auto;
+    height: 75vh;
+	width: 65vh;
+	margin-top: 5vh;
+    align-items: inline-block;
+    border: 3px solid black;
+}
+
+.info-text, .info-text1, .info-text2
+{
+   font-family: Chewy; font-size: 30px; font-weight: 100;
+   
+}
+
+.cover img
+{
+    width: 80%;
+	height: 60vh;
+    padding: 2px 5%;
+}
+
+.introduction, .introduction1, .introduction2
+{
+    flex: auto;
+}
+
+.b1, .b2, .b3
+{
+    border: 2px solid white;
+    background: transparent;
+    font-family: Chewy; font-size: 20px;
+	background-color: #000066;
+	color: white;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+.footer h4, p {
+  font-family: Chewy;
+} 
+
+.form{
+	max-width: 500px;
+	width: 100%;
+	background-color: #0000FF; /* For browsers that do not support gradients */
+	background-image: linear-gradient(270deg, #0000A0, #0000FF);
+	margin: 20px auto;
+	padding: 30px;
+	}
+	
+	input[type=submit]:hover {
+	background-color: white;
+	}
+	.customer {
+	margin: 0 auto;
+	width: 400px;
+	}
+	
+	label{
+	font-family: Chewy;
+	font-size: 32;
+	color: white;
+	}
+	
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  width: 102%;
+  background-color: #000066;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  font-family: Chewy;
+ }
+ button:hover {
+  opacity: 0.8;
+}
+
+body h2 {
+	text-align: center;
+	font-size: 40px;
+	font-family: Chewy;
+	color: white;
+}
+
+.table1 th
+{
+	text-align : center;
+	font-family: 'Poppins', sans-serif;
+		font-weight: 700;
+		font-size: 18px;
+		margin: 5px;
+		color: black;
+		letter-spacing: -1px;
+		text-decoration: none;
+	
+}
+
+.table1 tr
+{
+	text-align : center;
+	font-family: 'Poppins', sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		margin: 5px;
+		color: black;
+		letter-spacing: -1px;
+		text-decoration: none;
+	
+}
+.table1 a 
+	{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		margin: 5px;
+		color: blue;
+		letter-spacing: -1px;
+		text-decoration: underline;
+	}
+
+.table1 a:hover {
+  background-color: #000066;
+  color: white;
+}
+
+
+.fa 
+{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
